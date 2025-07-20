@@ -1,7 +1,7 @@
 import { Song, PaginationParams, PaginatedResponse, CreateSongRequest, UpdateSongRequest } from '@types/index';
 
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://your-backend-url.onrender.com/api'  // Replace with your deployed backend URL
+  ? 'https://songs-manger.onrender.com/api'  // Replace with your deployed backend URL
   : 'http://localhost:5000/api';
 
 class ApiError extends Error {
