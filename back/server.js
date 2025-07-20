@@ -26,7 +26,7 @@ app.use('/api/', limiter);
 // CORS configuration
 const corsOptions = {
     origin: process.env.NODE_ENV === 'production'
-        ? ['https://your-frontend-domain.vercel.app', 'https://song-manager-8w3q.vercel.app']
+        ? ['https://songs-manger.vercel.app/', 'https://song-manager-8w3q.vercel.app']
         : ['http://localhost:3000', 'http://127.0.0.1:3000'],
     credentials: true,
     optionsSuccessStatus: 200,
