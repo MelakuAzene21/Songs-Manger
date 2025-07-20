@@ -45,7 +45,7 @@ export interface ApiError {
   status: number;
 }
 
-export type Theme = 'light' | 'dark';
+export type Theme = 'dark'|'light';
 
 export interface AppState {
   theme: Theme;
